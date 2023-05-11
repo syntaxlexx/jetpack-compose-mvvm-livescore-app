@@ -1,22 +1,30 @@
 {
   "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
   ],
   "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" },
-  "v2": {
-    "inplay": {
-      "data": [
-        {
-          "id": 1,
-          "idCountry": 1,
-          "countryName": "IceLand",
-          "idLeague": 300,
-          "leagueName": "UV"
-        }
-      ]
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
     }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "inplay": {
+    "data": [
+      {
+        "id": 1,
+        "idCountry": 1,
+        "countryName": "IceLand",
+        "idLeague": 300,
+        "leagueName": "UV"
+      }
+    ]
   }
 }

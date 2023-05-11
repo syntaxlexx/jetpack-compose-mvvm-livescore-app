@@ -94,7 +94,7 @@ fun LiveMatches(liveMatches: List<Match>) {
             }
         } else {
             LazyRow(
-                modifier = Modifier.padding(15.dp),
+                modifier = Modifier.padding(top = 15.dp),
                 horizontalArrangement = Arrangement.spacedBy(12.dp),
             ) {
                 items(liveMatches.size) {
@@ -111,7 +111,8 @@ fun LiveMatchItem(match: Match) {
         shape = RoundedCornerShape(24.dp),
         modifier = Modifier
             .width(300.dp)
-            .height(150.dp)
+            .height(150.dp),
+        elevation = 0.dp
     ) {
         Column(modifier = Modifier.padding(10.dp)) {
             Text(

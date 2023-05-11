@@ -9,6 +9,6 @@ data class Match(
     val date: String,
     val status: String,
     val team_home_90min_goals: Int,
-    val away_home_90min_goals: Int,
+    val team_away_90min_goals: Int,
     val elapsed: Int
 )

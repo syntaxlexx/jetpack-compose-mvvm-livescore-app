@@ -1,29 +1,44 @@
 {
-  "posts": [
-    {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    }
-  ],
-  "profile": {
-    "name": "typicode"
-  },
   "inplay": {
     "data": [
       {
         "id": 1,
-        "idCountry": 1,
-        "countryName": "IceLand",
-        "idLeague": 300,
-        "leagueName": "UV"
+        "leagueName": "EPL",
+        "idHome": 1,
+        "homeName": "Arsenal",
+        "idAway": 2,
+        "awayName": "Man-U",
+        "date": "11-05-2023 19:00",
+        "status": "pending",
+        "team_home_90min_goals": 2,
+        "team_away_90min_goals": 1,
+        "elapsed": 20
+      },
+      {
+        "id": 2,
+        "leagueName": "La Liga",
+        "idHome": 3,
+        "homeName": "Barcelona",
+        "idAway": 4,
+        "awayName": "Atletico Madrid",
+        "date": "12-05-2023 19:00",
+        "status": "pending",
+        "team_home_90min_goals": 5,
+        "team_away_90min_goals": 2,
+        "elapsed": 30
+      },
+      {
+        "id": 3,
+        "leagueName": "La Liga",
+        "idHome": 6,
+        "homeName": "Real Madrid",
+        "idAway": 5,
+        "awayName": "Atletico Madrid",
+        "date": "12-05-2023 21:00",
+        "status": "pending",
+        "team_home_90min_goals": 5,
+        "team_away_90min_goals": 2,
+        "elapsed": 30
       }
     ]
   }

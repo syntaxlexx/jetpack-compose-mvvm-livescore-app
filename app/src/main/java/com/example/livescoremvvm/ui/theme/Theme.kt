@@ -5,26 +5,30 @@ import androidx.compose.material.MaterialTheme
 import androidx.compose.material.darkColors
 import androidx.compose.material.lightColors
 import androidx.compose.runtime.Composable
+import androidx.compose.ui.graphics.Color
 
 private val DarkColorPalette = darkColors(
-    primary = Purple200,
-    primaryVariant = Purple700,
-    secondary = Teal200
+    primary = Blue800,
+    primaryVariant = Color.White,
+    secondary = BackgroundDarkSecondary,
+    background = BackgroundDark,
+    surface = BackgroundSurfaceColor,
+    onPrimary = Color.White,
+    onSecondary = Color.White,
+    onBackground = Color.White,
+    onSurface = Color.White,
 )
 
 private val LightColorPalette = lightColors(
-    primary = Purple500,
-    primaryVariant = Purple700,
-    secondary = Teal200
-
-    /* Other default colors to override
-    background = Color.White,
+    primary = Blue600,
+    primaryVariant = Blue400,
+    secondary = Orange600,
+    background = Blue50,
     surface = Color.White,
     onPrimary = Color.White,
     onSecondary = Color.Black,
     onBackground = Color.Black,
     onSurface = Color.Black,
-    */
 )
 
 @Composable
@@ -40,7 +44,7 @@ fun LiveScoreMVVMTheme(
 
     MaterialTheme(
         colors = colors,
-        typography = Typography,
+        typography = LiveScoreAppTypography,
         shapes = Shapes,
         content = content
     )

@@ -9,7 +9,7 @@
         "idAway": 2,
         "awayName": "Man-U",
         "date": "11-05-2023 19:00",
-        "status": "pending",
+        "status": "in progress",
         "team_home_90min_goals": 2,
         "team_away_90min_goals": 1,
         "elapsed": 20
@@ -22,7 +22,7 @@
         "idAway": 4,
         "awayName": "Atletico Madrid",
         "date": "12-05-2023 19:00",
-        "status": "pending",
+        "status": "half time",
         "team_home_90min_goals": 5,
         "team_away_90min_goals": 2,
         "elapsed": 30
@@ -35,6 +35,62 @@
         "idAway": 5,
         "awayName": "Atletico Madrid",
         "date": "12-05-2023 21:00",
+        "status": "finished",
+        "team_home_90min_goals": 5,
+        "team_away_90min_goals": 2,
+        "elapsed": 30
+      }
+    ]
+  },
+  "upcoming": {
+    "data": [
+      {
+        "id": 5,
+        "leagueName": "EPL",
+        "idHome": 1,
+        "homeName": "Arsenal",
+        "idAway": 2,
+        "awayName": "Man-U",
+        "date": "11-05-2023 19:00",
+        "status": "pending",
+        "team_home_90min_goals": 2,
+        "team_away_90min_goals": 1,
+        "elapsed": 20
+      },
+      {
+        "id": 6,
+        "leagueName": "La Liga",
+        "idHome": 3,
+        "homeName": "Barcelona",
+        "idAway": 4,
+        "awayName": "Atletico Madrid",
+        "date": "12-05-2023 19:00",
+        "status": "pending",
+        "team_home_90min_goals": 5,
+        "team_away_90min_goals": 2,
+        "elapsed": 30
+      },
+      {
+        "id": 7,
+        "leagueName": "La Liga",
+        "idHome": 6,
+        "homeName": "Real Madrid",
+        "idAway": 5,
+        "awayName": "Atletico Madrid",
+        "date": "12-05-2023 21:00",
+        "status": "pending",
+        "team_home_90min_goals": 5,
+        "team_away_90min_goals": 2,
+        "elapsed": 30
+      },
+      {
+        "id": 8,
+        "leagueName": "EPL",
+        "idHome": 9,
+        "homeName": "Aston Villa",
+        "idAway": 10,
+        "awayName": "Chelsea",
+        "date": "14-05-2023 17:00",
         "status": "pending",
         "team_home_90min_goals": 5,
         "team_away_90min_goals": 2,

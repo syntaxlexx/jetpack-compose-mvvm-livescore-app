@@ -3,7 +3,7 @@ buildscript {
         compose_ui_version = '1.2.0'
     }
     dependencies {
-        classpath "com.google.dagger:hilt-android-gradle-plugin:2.41"
+        classpath "com.google.dagger:hilt-android-gradle-plugin:2.46"
     }
 }// Top-level build file where you can add configuration options common to all sub-projects/modules.
 plugins {
@@ -12,3 +12,4 @@ plugins {
     id 'org.jetbrains.kotlin.android' version '1.8.21' apply false
 }
 // https://developer.android.com/jetpack/androidx/releases/compose-kotlin
+// https://dagger.dev/hilt/gradle-setup
